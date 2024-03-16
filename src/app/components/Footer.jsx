@@ -21,9 +21,9 @@ const Footer = () => {
                         <p className='font-extralight'>Lorem ipsum</p>
                     </div>
                 </div>
-                <div className='flex gap-24 mx-auto'>
+                <div className='flex pe-52 gap-24'>
                     <div>
-                        <h3 className='uppercase mb-3 font-semibold'>Følg os</h3>
+                        <h3 className='uppercase mb-2 -mt-2 font-semibold'>Følg os</h3>
                         <div className='flex gap-3 mb-2'>
                             <FaFacebook size={28} /> <FaYoutube size={28} />
                         </div>
@@ -32,7 +32,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <h3 className='uppercase mb-3 font-semibold'>Sponsors</h3>
+                        <h3 className='uppercase mb-2 -mt-2 font-semibold'>Sponsors</h3>
                     </div>
                 </div>
             </div>

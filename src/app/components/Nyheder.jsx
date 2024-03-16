@@ -4,9 +4,9 @@ import Carousel from './Carousel'
 const Nyheder = () => {
     return (
         <div className='mx-auto container my-10'>
-            <h2 className='uppercase font-bold text-4xl my-3'>Nyheder</h2>
+            <h2 className='text-black uppercase font-bold text-4xl my-3'>Nyheder</h2>
             <div className='flex gap-4'>
-                <div className="carousel-item h-96 w-9/12 relative">
+                <div className="carousel-item h-[500px] w-9/12 relative">
                     <div className='absolute top-0 py-2 px-8 uppercase text-base whitespace-nowrap filter bg-black text-white bg-opacity-50'>
                         <p>1 jan</p>
                     </div>
@@ -18,7 +18,7 @@ const Nyheder = () => {
                 <Carousel />
             </div>
             <div className='flex justify-center my-10'>
-                <button className='bg-[#313170] px-6 py-3 text-white uppercase text-lg font-medium'>Se mere</button>
+                <button className='bg-[#313170] px-6 py-3 text-white uppercase text-lg font-medium hover:bg-orange-400 hover:text-[#313170] hover:font-semibold'>Se mere</button>
             </div>
         </div>
     )
