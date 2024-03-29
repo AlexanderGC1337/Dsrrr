@@ -1,8 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "@/app/components/header/styles.module.scss"
 
 export default function Header() {
+
   return (
-    <nav id={styles.navContainer}>
+    <nav className="sticky top-0 w-full h-[100px] z-10" id={styles.navContainer}>
       <a href="/">
         <img id={styles.imgLogo} src="/assets/images/DSR-logo.gif" alt="" />
       </a>

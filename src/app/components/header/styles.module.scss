@@ -7,10 +7,11 @@
     filter: drop-shadow(1px 1px 10px #333);
 
 
-    background-color: rgba(255, 255, 255, 0.89);
+    background-color: white;
+
 
     #imgLogo {
-        width: 200px;
+        width: 100px;
         object-fit: cover;
     }
 
@@ -25,10 +26,10 @@
             text-transform: uppercase;
             color: #333;
             font-weight: 700;
-            font-size: 1.4rem;
+            font-size: 1.25rem;
             letter-spacing: -0.2px;
 
-            font-style: italic;
+            
             &:hover {
                 background-color: #333;
                 color: white;
