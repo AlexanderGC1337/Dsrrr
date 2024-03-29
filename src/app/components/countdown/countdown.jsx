@@ -1,5 +1,7 @@
+'use client'
+
 import React, { useState, useEffect } from 'react';
-import styles from "@/app/components/hero/page.module.scss"
+import styles from "@/app/components/heroes/Homepage/page.module.scss"
 
 function Countdown() {
   const calculateTimeLeft = () => {

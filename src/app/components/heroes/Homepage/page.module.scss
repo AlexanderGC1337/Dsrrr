@@ -20,11 +20,9 @@
 
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 75%;
+    top: 75%;
+    right: 0;
     transform: translate(-50%, -50%);
-    /* transform: rotate(1deg); */
-    rotate: 1 0 1 3.5deg;
     background-color: #313170;
     padding: 2rem;
     width: 400px;

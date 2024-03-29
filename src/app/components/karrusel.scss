@@ -1,0 +1,17 @@
+.slides {
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+    font-size: 20px;
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: -40px;
+  }
+
+  .slick-slider,
+  .slick-slide {
+    overflow: hidden;
+  }
+}

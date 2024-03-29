@@ -3,9 +3,9 @@ import Carousel from './Carousel'
 
 const Nyheder = () => {
     return (
-        <div className='mx-auto container my-10'>
+        <div className='my-10 mx-40'>
             <h2 className='text-black uppercase font-bold text-4xl my-3'>Nyheder</h2>
-            <div className='flex gap-4'>
+            <div className='flex  gap-4'>
                 <div className="carousel-item h-[500px] w-9/12 relative">
                     <div className='absolute top-0 py-2 px-8 uppercase text-base whitespace-nowrap filter bg-black text-white bg-opacity-50'>
                         <p>1 jan</p>
