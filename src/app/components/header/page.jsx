@@ -6,11 +6,6 @@ export default function Header() {
   return (
     <>
       <div className="absolute top-0 w-full h-[100px] z-10">
-        <div className="w-full p-2 bg-black text-[whitesmoke] uppercase text-center">
-          <p>
-            Hovedsponsor - xxxx
-          </p>
-        </div>
 
         <nav id={styles.navContainer}>
           <a href="/">
