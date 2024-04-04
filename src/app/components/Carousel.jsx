@@ -5,7 +5,7 @@ const Carousel = () => {
 
     return (
         <div className="h-[500px] carousel carousel-vertical">
-            <div id='slide1' className="carousel-item h-1/2 w-full relative">
+            <div id='slide1' className="carousel-item h-1/2 relative">
                 <div className='absolute top-0 py-1 filter bg-black text-white bg-opacity-50'>
                     <p className='px-4 uppercase text-xs whitespace-nowrap'>1 jan</p>
                 </div>

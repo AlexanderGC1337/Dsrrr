@@ -32,20 +32,20 @@ function Countdown() {
 
   return (
     <div>
-      <div id={styles.countDownContainer}>
-        <div id={styles.countContainer}>
+      <div className='flex gap-4 font-semibold' id={styles.countDownContainer}>
+        <div className='flex flex-col' id={styles.countContainer}>
           <span>{timeLeft.days}</span>
           <span id={styles.countDate}>Days</span>
         </div>
-        <div id={styles.countContainer}>
+        <div className='flex flex-col' id={styles.countContainer}>
           <span>{timeLeft.hours}</span>
           <span id={styles.countDate}>Hours</span>
         </div>
-        <div id={styles.countContainer}>
+        <div className='flex flex-col' id={styles.countContainer}>
           <span>{timeLeft.minutes}</span>
           <span id={styles.countDate}>Minutes</span>
         </div>
-        <div id={styles.countContainer}>
+        <div className='flex flex-col' id={styles.countContainer}>
           <span>{timeLeft.seconds}</span>
           <span id={styles.countDate}>Seconds</span>
         </div>
