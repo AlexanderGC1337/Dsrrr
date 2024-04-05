@@ -1,12 +1,15 @@
+'use client'
+
 import React from 'react'
 import Header from '../components/header/page'
 import Footer from '../components/Footer'
+import Image from 'next/image'
 
 const Hvaderdsr = () => {
   return (
     <>
-      <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
-        <Header />
+      <Header />
+      <div className="hero min-h-[500px]" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
 
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
@@ -16,7 +19,7 @@ const Hvaderdsr = () => {
         </div>
       </div>
 
-      <div className='mx-40 mt-14 text-[#333]'>
+      <div className='container px-10 sm:px-3 mx-auto mt-14 text-[#333]'>
         <p className='my-6'>
           DSR er toppen af dansk rally. DSR afvikles over 6 afdelinger, hvor der køres i flere landsdele.
 
@@ -29,7 +32,7 @@ const Hvaderdsr = () => {
         <p className='my-6'>
           I hvert rally kåres en totalvinder og et antal klassevindere. Teamet med flest point til slut kåres som officiel DIF-Rally Mester. Dansk Automobil Sports Union kårer efter samme princip vinderne i de enkelte vognklasser.
         </p>
-        <h3 className='uppercase font-semibold text-lg my-6'>
+        <h3 className='uppercase font-semibold text-lg my-6 text-center lg:text-start'>
           Mediedækning
         </h3>
         <p className='mb-20'>
@@ -37,12 +40,12 @@ const Hvaderdsr = () => {
         </p>
 
         <div className='text-center mb-10'>
-        <h4 className='italic uppercase font-semibold text-xl'>
-          Rallysporten er fangende
-        </h4>
-        <h6 className='italic'>
-          &quot;det går direkte i blodet !&quot;
-        </h6>
+          <h4 className='italic uppercase font-semibold text-xl'>
+            Rallysporten er fangende
+          </h4>
+          <h6 className='italic'>
+            &quot;det går direkte i blodet !&quot;
+          </h6>
         </div>
         <p>
           I dag er sportsbegivenheder i langt højere grad en oplevelse
@@ -107,6 +110,12 @@ const Hvaderdsr = () => {
 
           omdømme.
         </p>
+      </div>
+      <div className='container mx-auto mb-20'>
+        <div className='grid gap-2 place-items-center'>
+          <img src="/assets/images/presse-dansk.jpg" alt=""/>
+          <img src="/assets/images/presse-engelsk.jpg" alt=""/>
+        </div>
       </div>
 
 

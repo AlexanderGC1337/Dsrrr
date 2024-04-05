@@ -1,26 +1,69 @@
+'use client'
+
 import React from 'react'
-import Carousel from './Carousel'
+import Image from 'next/image'
 
 const Nyheder = () => {
     return (
-        <div className='my-10 mx-40'>
-            <h2 className='text-black uppercase font-bold text-4xl my-3'>Nyheder</h2>
-            <div className='flex  gap-4'>
-                <div className="carousel-item h-[500px] w-9/12 relative">
-                    <div className='absolute top-0 py-2 px-8 uppercase text-base whitespace-nowrap filter bg-black text-white bg-opacity-50'>
-                        <p>1 jan</p>
-                    </div>
-                    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className='w-full h-full object-cover' />
-                    <div className='absolute bottom-0 py-5 filter bg-black w-full text-white bg-opacity-50'>
-                        <p className='ps-3 uppercase text-base whitespace-nowrap'>Lorem ipsum dolor sit amet, consectetur</p>
-                    </div>
+        <>
+            <div className='container px-5 md:px-0 mx-auto my-20'>
+                <div className='flex items-center'>
+                    <img src="/assets/images/Logo.jpg" alt="DSR logo" className='w-20 h-20' />
+                    <h2 className='uppercase font-medium italic text-lg'>Nyheder</h2>
                 </div>
-                <Carousel />
+                <div className='grid grid-cols-1 md:grid-cols-3 grid-rows-2 lg:grid-cols-6 md:grid-rows-4 gap-x-3 gap-y-2'>
+                    <a href='/topnyhed' className='relative col-span-1 md:col-span-3 lg:col-span-4 md:row-span-4'>
+                        <img src="/assets/images/jp-racing.jpeg" alt="Rally bil bagfra" />
+                        <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide'>
+                            <div className='flex items-center gap-2 mb-2'>
+                                <Image src={"/assets/images/calender2.svg"} width={20} height={20} className="filter invert" alt="Calendar icon" />
+                                <p>01/02/2024</p>
+                            </div>
+                            <h3 className='text-sm pe-4 sm:pe-0 md:text-lg lg:text-sm font-medium'>
+                                Forberedelserne til tv-dækningen af Dansk Super Rally går ind i deres afsluttende fase
+                            </h3>
+                        </div>
+                        <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
+                    </a>
+
+                    <a href='/topnyhed' className='relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
+                        <img src="/assets/images/jp-racing.jpeg" alt="Rally bil bagfra" />
+                        <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide'>
+                            <div className='flex items-center gap-2 mb-2'>
+                                <Image src={"/assets/images/calender2.svg"} width={20} height={20} className="filter invert" alt="Calendar icon" />
+                                <p>01/02/2024</p>
+                            </div>
+                            <h3 className='text-sm pe-4 sm:pe-0 md:text-lg lg:text-sm font-medium'>
+                                Forberedelserne til tv-dækningen af Dansk Super Rally går ind i deres afsluttende fase
+                            </h3>
+                        </div>
+                        <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
+                    </a>
+
+                    <a href='/topnyhed' className='relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
+                        <img src="/assets/images/jp-racing.jpeg" alt="Rally bil bagfra" />
+                        <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide'>
+                            <div className='flex items-center gap-2 mb-2'>
+                                <Image src={"/assets/images/calender2.svg"} width={20} height={20} className="filter invert" alt="Calendar icon" />
+                                <p>01/02/2024</p>
+                            </div>
+                            <h3 className='text-sm pe-4 sm:pe-0 md:text-lg lg:text-sm font-medium'>
+                                Forberedelserne til tv-dækningen af Dansk Super Rally går ind i deres afsluttende fase
+                            </h3>
+                        </div>
+                        <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
+                    </a>
+                </div>
+                <div className='flex items-center gap-3 mt-10'>
+                    <a href="https://www.fia.com/" target='_blank' className='w-40 h-full'>
+                        <img src="/assets/images/fia_logo-removebg-preview.png" alt="FIA logo"/>
+                    </a>
+                    <a href="https://www.dasu.dk/sportsgrene/rally/" target='_blank' className='w-40 h-full'>
+                        <img src="/assets/images/DASU_logo_hvid_baggrund_stor-removebg-preview.png" alt="DASU logo"/>
+                    </a>
+                </div>
             </div>
-            <div className='flex justify-center my-10'>
-                <button className='bg-[#313170] px-6 py-3 text-white uppercase text-lg font-medium hover:bg-orange-400 hover:text-[#313170] hover:font-semibold'>Se mere</button>
-            </div>
-        </div>
+        </>
     )
 }
 

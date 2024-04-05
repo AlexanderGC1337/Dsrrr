@@ -6,8 +6,8 @@ import { Icon } from '@iconify-icon/react';
 const rallies = () => {
     return (
         <div>
-            <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
-                <Header />
+            <Header />
+            <div className="hero min-h-[500px]" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
 
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
@@ -17,9 +17,13 @@ const rallies = () => {
                 </div>
             </div>
 
-            <div className='my-32'>
-                <h2 className='text-center text-3xl font-semibold uppercase text-black mb-10 flex gap-3 justify-center bg-[#F7941D] py-3'>
-                Næste løb
+            <a href='https://webapp.sportity.com/event/dasu/6876236b-b289-4b6b-82a2-6e4108fbe9dd' target='_blank' className='container mx-auto w-fit flex justify-center mt-10'>
+                <img src="/assets/images/sportity.PNG" alt="" />
+            </a>
+
+            <div className='mb-32 mt-10'>
+                <h2 className='text-center text-3xl font-semibold uppercase text-black mb-10 flex gap-3 justify-center bg-[#F7941D] py-4'>
+                    Næste løb
                 </h2>
                 <div className='flex flex-col gap-4 text-[white]'>
                     <div className='flex justify-center text-[black]'>

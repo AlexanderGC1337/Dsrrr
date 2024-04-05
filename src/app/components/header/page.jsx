@@ -1,5 +1,6 @@
+'use client'
+
 /* eslint-disable @next/next/no-img-element */
-import styles from "@/app/components/header/styles.module.scss"
 import Link from "next/link"
 
 export default function Header() {
@@ -15,8 +16,8 @@ export default function Header() {
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-5 z-[1] p-2 shadow bg-white rounded-box w-52">
               <li><a href="/nyheder">Nyheder</a></li>
               <li><a href="/rallies">Rallies</a></li>
-              <li><a href="/resultat">Resultat</a></li>
-              <li><a href="/omos">Om os</a></li>
+              <li><a target="_blank" href="https://www.rally-results.dk/events">Resultater</a></li>
+              <li><a href="/hvaderdsr">Hvad er DSR?</a></li>
             </ul>
           </div>
           <Link href={"/"} className="">
@@ -27,8 +28,8 @@ export default function Header() {
           <ul className="menu menu-horizontal px-1 text-xl font-semibold">
             <li><a href="/nyheder">Nyheder</a></li>
             <li><a href="/rallies">Rallies</a></li>
-            <li><a href="/resultat">Resultat</a></li>
-            <li><a href="/omos">Om os</a></li>
+            <li><a target="_blank" href="https://www.rally-results.dk/events">Resultater</a></li>
+            <li><a href="/hvaderdsr">Hvad er DSR?</a></li>
           </ul>
         </div>
       </div>
