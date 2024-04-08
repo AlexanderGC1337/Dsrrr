@@ -25,7 +25,7 @@ const rallies = () => {
                 <h2 className='text-center text-3xl font-semibold uppercase text-black mb-10 flex gap-3 justify-center bg-[#F7941D] py-4'>
                     Næste løb
                 </h2>
-                <div className='flex flex-col gap-4 text-[white]'>
+                <div className='flex flex-col gap-4 text-[white] px-2'>
                     <div className='flex justify-center text-[black]'>
                         <div className="card w-[600px] shadow-xl ">
                             <figure className='p-3'>
@@ -44,7 +44,7 @@ const rallies = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex justify-center align-middle gap-4'>
+                    <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full">
                             <figure className='p-3'>
                                 <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Shoes" />
@@ -79,7 +79,7 @@ const rallies = () => {
                         </div>
                     </div>
 
-                    <div className='flex justify-center align-middle gap-4'>
+                    <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full">
                             <figure className='p-3'>
                                 <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Shoes" />

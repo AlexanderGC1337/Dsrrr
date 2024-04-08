@@ -19,7 +19,7 @@ const Hvaderdsr = () => {
         </div>
       </div>
 
-      <div className='container px-10 sm:px-3 mx-auto mt-14 text-[#333]'>
+      <div className='container px-10 sm:px-3 mx-auto mt-14 text-[#333] prose-base lg:prose-lg'>
         <p className='my-6'>
           DSR er toppen af dansk rally. DSR afvikles over 6 afdelinger, hvor der køres i flere landsdele.
 
