@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="navbar bg-white sticky top-0 uppercase z-50">
+      <div className="navbar bg-base-100 sticky top-0 uppercase z-50">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,7 +21,7 @@ export default function Header() {
             </ul>
           </div>
           <Link href={"/"} className="">
-            <img src="/assets/images/Logo.jpg" alt="Logo" className="h-28" />
+            <img src="/assets/images/Logo.png" alt="Logo" className="h-28" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
