@@ -34,7 +34,7 @@ const Footer = () => {
             <footer className="footer footer-center px-10 py-3 border-t bg-base-300 text-base-content border-secondary">
                 <div className='text-center py-3 px-1 text-xs'>
                     <p>
-                        © 2024 Dansk SuperRally | All Rights Reserved | Powered by OfficeBoOst
+                        © 2024 Dansk SuperRally | All Rights Reserved | Powered by OfficeBoost
                     </p>
 
                 </div>
