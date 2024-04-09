@@ -1,14 +1,11 @@
 'use client'
 
 import React from 'react'
-import Header from '../components/header/page'
-import Footer from '../components/Footer'
 import Image from 'next/image'
 
 const Hvaderdsr = () => {
   return (
     <>
-      <Header />
       <div className="hero min-h-[500px]" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
 
         <div className="hero-overlay bg-opacity-60"></div>
@@ -117,9 +114,6 @@ const Hvaderdsr = () => {
           <img src="/assets/images/presse-engelsk.jpg" alt=""/>
         </div>
       </div>
-
-
-      <Footer />
     </>
   )
 }

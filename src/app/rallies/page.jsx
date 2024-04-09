@@ -1,12 +1,8 @@
 import React from 'react'
-import Header from '../components/header/page'
-import Footer from '../components/Footer'
-import { Icon } from '@iconify-icon/react';
 
 const rallies = () => {
     return (
         <div>
-            <Header />
             <div className="hero min-h-[500px]" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
 
                 <div className="hero-overlay bg-opacity-60"></div>
@@ -133,10 +129,6 @@ const rallies = () => {
                     </div>
                 </div>
             </div>
-
-
-
-            <Footer />
         </div>
     )
 }

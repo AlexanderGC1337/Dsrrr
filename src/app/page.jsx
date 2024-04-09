@@ -9,10 +9,8 @@ import Hero from "./components/heroes/Homepage/page";
 export default function Home() {
   return (
     <main>
-      <Header />
       <Hero/>
       <Nyheder/>
-      <Footer />
     </main>
   );
 }

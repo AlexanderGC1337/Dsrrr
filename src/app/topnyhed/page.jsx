@@ -1,14 +1,11 @@
 'use client'
 
 import React from 'react'
-import Header from '../components/header/page'
-import Footer from '../components/Footer'
 import { FaFacebook } from "react-icons/fa";
 
 const page = () => {
     return (
         <>
-            <Header />
             <article className="max-w-2xl px-6 py-24 mx-auto space-y-12 dark:bg-gray-100 dark:text-gray-900 prose-base lg:prose-lg">
                 <div className="w-full mx-auto space-y-4 text-center">
                     <p className="text-xs font-semibold tracking-wider uppercase">#DSR</p>
@@ -117,7 +114,6 @@ const page = () => {
                     </div>
                 </div>
             </article>
-            <Footer />
         </>
     )
 }
