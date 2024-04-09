@@ -25,7 +25,7 @@ const rallies = () => {
                     <div className='flex justify-center text-[black]'>
                         <div className="card w-[600px] shadow-xl ">
                             <figure className='p-3'>
-                                <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Shoes" />
+                                <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Rally Yding rallyplade" />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title">Yding Rally - DSR 1</h2>
@@ -43,7 +43,7 @@ const rallies = () => {
                     <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full">
                             <figure className='p-3'>
-                                <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Shoes" />
+                                <img src="/assets/images/Logo.png" alt="Rally Sønderjylland rallyplade" />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title">Rally Sønderjylland - DSR 2</h2>
@@ -59,7 +59,7 @@ const rallies = () => {
                         </div>
                         <div className="card w-96 bg-base-100 shadow-xl image-full">
                             <figure className='p-3'>
-                                <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Shoes" />
+                                <img src="/assets/images/Logo.png" alt="DM-Ugen rallyplade" />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title">DM-Ugen 2024 - DSR 3</h2>
@@ -78,7 +78,7 @@ const rallies = () => {
                     <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full">
                             <figure className='p-3'>
-                                <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Shoes" />
+                                <img src="/assets/images/Logo.png" alt="Rally Juelsminde rallyplade" />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title">Rally Juelsminde - DSR 4</h2>
@@ -94,7 +94,7 @@ const rallies = () => {
                         </div>
                         <div className="card w-96 bg-base-100 shadow-xl image-full">
                             <figure className='p-3'>
-                                <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Shoes" />
+                                <img src="/assets/images/Logo.png" alt="Rally Vestjylland rallyplade"/>
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title">Rally Vestjylland - DSR 5</h2>
@@ -112,7 +112,7 @@ const rallies = () => {
                     <div className='flex justify-center'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full">
                             <figure className='p-3'>
-                                <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Shoes" />
+                                <img src="/assets/images/stoholm-rallyplade.png" alt="Rally stoholm rallyplade" />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title">Rally Stoholm - DSR 6</h2>

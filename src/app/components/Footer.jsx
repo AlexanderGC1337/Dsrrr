@@ -13,18 +13,9 @@ const Footer = () => {
                     </a>
                 </aside>
                 <nav>
-                    <h6 className="footer-title">Mere</h6>
-                    <a className="link link-hover">Lorem ipsum</a>
-                    <a className="link link-hover">Lorem ipsum</a>
-                    <a className="link link-hover">Lorem ipsum</a>
-                    <a className="link link-hover">Lorem ipsum</a>
-                </nav>
-                <nav>
                     <h6 className="footer-title">Nyttige links</h6>
-                    <a className="link link-hover">Lorem ipsum</a>
-                    <a className="link link-hover">Lorem ipsum</a>
-                    <a className="link link-hover">Lorem ipsum</a>
-                    <a className="link link-hover">Lorem ipsum</a>
+                    <a href='https://www.dasu.dk/' target='_blank' className="link link-hover">DASU</a>
+                    <a href='https://www.fia.com/' target='_blank' className="link link-hover">FIA</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Følg os</h6>
