@@ -78,7 +78,7 @@ const rallies = () => {
                     <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full">
                             <figure className='p-3'>
-                                <img src="/assets/images/Logo.png" alt="Rally Juelsminde rallyplade" />
+                                <img src="/assets/images/juelsminde-rallyplade.png" alt="Rally Juelsminde rallyplade" />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title">Rally Juelsminde - DSR 4</h2>
