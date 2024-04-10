@@ -21,7 +21,7 @@ export default function Header() {
             </ul>
           </div>
           <Link href={"/"} className="">
-            <img src="/assets/images/Logo.png" alt="Logo" className="h-28" />
+            <img src="/assets/images/Logo.png" alt="Logo" className="h-28 w-auto" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex ">

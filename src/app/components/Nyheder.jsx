@@ -9,7 +9,7 @@ const Nyheder = () => {
             <div className='container px-5 md:px-0 mx-auto my-20'>
                 <div className='flex items-center'>
                     <img src="/assets/images/Logo.jpg" alt="DSR logo" className='w-20 h-20' />
-                    <h2 className='uppercase font-medium italic text-lg'>Nyheder</h2>
+                    <h1 className='uppercase font-medium italic text-lg'>Nyheder</h1>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-3 grid-rows-2 lg:grid-cols-6 md:grid-rows-4 gap-x-3 gap-y-2'>
                     <a href='/nyheder/topnyhed' className='relative col-span-1 md:col-span-3 lg:col-span-4 md:row-span-4'>

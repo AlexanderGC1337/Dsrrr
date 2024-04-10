@@ -8,13 +8,13 @@ import Footer from './components/Footer';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dansk Super Rally",
-  description: "DSR er toppen af dansk rally. DSR afvikles over 6 afdelinger, hvor der køres i flere landsdele.",
+  title: "Dansk Super Rally - Toppen af Dansk rally",
+  description: "DSR afvikles over 6 afdelinger, hvor der køres i flere landsdele. Hver afdeling tæller omkring 4-5 forskellige hastighedsprøver der køres flere gange.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="da">
       <body className={inter.className}>
         <Header/>
         {children}
