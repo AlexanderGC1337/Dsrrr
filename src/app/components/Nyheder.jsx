@@ -12,9 +12,23 @@ const Nyheder = () => {
                     <h1 className='uppercase font-medium italic text-lg'>Nyheder</h1>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-3 grid-rows-2 lg:grid-cols-6 md:grid-rows-4 gap-x-3 gap-y-2'>
-                    <a href='/nyheder/topnyhed' className='relative col-span-1 md:col-span-3 lg:col-span-4 md:row-span-4'>
+                    <a href='/nyheder/tv-aftalen-er-paa-plads' className='relative col-span-1 md:col-span-3 lg:col-span-4 md:row-span-4'>
+                        <img src="/assets/images/galleri/DSC_9531.JPG" alt="Billede af servicepladsen" className='h-full'/>
+                        <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide w-full'>
+                            <div className='flex items-center gap-2 mb-2'>
+                                <Image src={"/assets/images/calender2.svg"} width={20} height={20} className="filter invert" alt="Calendar icon" />
+                                <p>15/04/2024</p>
+                            </div>
+                            <h3 className='text-sm pe-4 sm:pe-0 md:text-lg lg:text-sm font-medium'>
+                                TV-aftalen er på plads til alle afdelinger af Dansk Super Rally i 2024
+                            </h3>
+                        </div>
+                        <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
+                    </a>
+
+                    <a href='/nyheder/forberedelserne-til-tv-daekningen' className='relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
                         <img src="/assets/images/jp-racing.jpeg" alt="Rally bil bagfra" />
-                        <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide'>
+                        <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide w-full'>
                             <div className='flex items-center gap-2 mb-2'>
                                 <Image src={"/assets/images/calender2.svg"} width={20} height={20} className="filter invert" alt="Calendar icon" />
                                 <p>01/02/2024</p>
@@ -28,27 +42,13 @@ const Nyheder = () => {
 
                     <a href='/nyheder/nordicrally' className='relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
                         <img src="/assets/images/nordic-rally.jpeg" alt="Billede fra nordic rally" />
-                        <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide'>
+                        <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide w-full'>
                             <div className='flex items-center gap-2 mb-2'>
                                 <Image src={"/assets/images/calender2.svg"} width={20} height={20} className="filter invert" alt="Calendar icon" />
                                 <p>27/12/2023</p>
                             </div>
                             <h3 className='text-sm pe-4 sm:pe-0 md:text-lg lg:text-sm font-medium'>
-                            DSR støtter Nordic Rally Championship
-                            </h3>
-                        </div>
-                        <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
-                    </a>
-
-                    <a href='/' className='relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
-                        <img src="/assets/images/jp-racing.jpeg" alt="Rally bil bagfra" />
-                        <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide'>
-                            <div className='flex items-center gap-2 mb-2'>
-                                <Image src={"/assets/images/calender2.svg"} width={20} height={20} className="filter invert" alt="Calendar icon" />
-                                <p>##/##/####</p>
-                            </div>
-                            <h3 className='text-sm pe-4 sm:pe-0 md:text-lg lg:text-sm font-medium'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni natus perferendis excepturi cum voluptatem!
+                                DSR støtter Nordic Rally Championship
                             </h3>
                         </div>
                         <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
@@ -56,10 +56,10 @@ const Nyheder = () => {
                 </div>
                 <div className='flex items-center gap-3 mt-10'>
                     <a href="https://www.fia.com/" target='_blank' className='w-40 h-full'>
-                        <img src="/assets/images/fia-logo.png" alt="FIA logo"/>
+                        <img src="/assets/images/fia-logo.png" alt="FIA logo" />
                     </a>
                     <a href="https://www.dasu.dk/sportsgrene/rally/" target='_blank' className='w-40 h-full'>
-                        <img src="/assets/images/DASU-logo.png" alt="DASU logo"/>
+                        <img src="/assets/images/DASU-logo.png" alt="DASU logo" />
                     </a>
                 </div>
             </div>

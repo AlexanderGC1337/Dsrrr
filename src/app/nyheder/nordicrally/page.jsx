@@ -8,7 +8,7 @@ const page = () => {
         <>
             <article className="max-w-2xl pb-24 pt-4 mx-auto space-y-12 dark:bg-gray-100 dark:text-gray-900 prose-base lg:prose-lg">
                 <div className="w-full mx-auto space-y-4 text-center">
-                    <img src="/assets/images/nordic-rally.jpeg" alt="Billede fra nordic rally"/>
+                    <img src="/assets/images/nordic-rally.jpeg" alt="Billede fra nordic rally" className='object-cover w-full'/>
                     <p className="text-xs font-semibold tracking-wider uppercase px-6">#DSR</p>
                     <h1 className="text-4xl font-bold leading-tight md:text-5xl px-6">DSR støtter Nordic Rally Championship</h1>
                     <p className="text-sm dark:text-gray-600 px-6">
