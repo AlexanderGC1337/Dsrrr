@@ -13,7 +13,7 @@ const Nyheder = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-3 grid-rows-2 lg:grid-cols-6 md:grid-rows-4 gap-x-3 gap-y-2'>
                     <a href='/nyheder/tv-aftalen-er-paa-plads' className='relative col-span-1 md:col-span-3 lg:col-span-4 md:row-span-4'>
-                        <img src="/assets/images/galleri/DSC_9531.JPG" alt="Billede af servicepladsen" className='h-full'/>
+                        <img src="/assets/images/galleri/DSC_9531.JPG" alt="Billede af servicepladsen" className=''/>
                         <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide w-full'>
                             <div className='flex items-center gap-2 mb-2'>
                                 <Image src={"/assets/images/calender2.svg"} width={20} height={20} className="filter invert" alt="Calendar icon" />

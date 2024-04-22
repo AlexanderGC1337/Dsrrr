@@ -1,5 +1,6 @@
 'use client'
 
+import { IoArrowBackCircleOutline } from "react-icons/io5";
 import React from 'react'
 import { FaFacebook } from "react-icons/fa";
 
@@ -8,7 +9,8 @@ const page = () => {
         <>
             <article className="max-w-2xl pb-24 pt-4 mx-auto space-y-12 dark:bg-gray-100 dark:text-gray-900 prose-base lg:prose-lg">
                 <div className="w-full mx-auto space-y-4 text-center">
-                    <img src="/assets/images/jp-racing.jpeg" alt='Rally bil bagfra'/>
+                    <a href="/nyheder" className='btn btn-primary hover:btn-secondary flex w-fit ms-6'><IoArrowBackCircleOutline />Tilbage</a>
+                    <img src="/assets/images/jp-racing.jpeg" alt='Rally bil bagfra' />
                     <p className="text-xs font-semibold tracking-wider uppercase">#DSR</p>
                     <h1 className="text-4xl font-bold leading-tight md:text-5xl">Forberedelserne til tv-dækningen af Dansk Super Rally går ind i deres afsluttende fase</h1>
                     <p className="text-sm dark:text-gray-600">

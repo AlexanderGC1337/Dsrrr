@@ -18,21 +18,21 @@ const rallies = () => {
             </a>
 
             <div className='mb-32 mt-10'>
-                <h2 className='text-center text-3xl font-semibold uppercase text-black mb-10 flex gap-3 justify-center bg-[#F7941D] py-4'>
+                <h2 className='text-center text-3xl font-semibold uppercase text-base-100 mb-10 flex gap-3 justify-center bg-primary py-4'>
                     Næste løb
                 </h2>
                 <div className='flex flex-col gap-4 text-[white] px-2'>
                     <div className='flex justify-center text-[black]'>
                         <div className="card w-[600px] shadow-xl ">
                             <figure className='p-3'>
-                                <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Rally Yding rallyplade" />
+                                <img src="/assets/images/Rallyplade-Sønderjylland.png" alt="Rally Sønderjylland rallyplade" />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">Yding Rally - DSR 1</h2>
-                                <p>20. April 2024</p>
+                                <h2 className="card-title">Rally Sønderjylland - DSR 2</h2>
+                                <p>25. Maj 2024</p>
                                 <div className="card-actions justify-end">
                                     <button className="btn bg-[black] text-[white] hover:bg-[#F7941D] hover:text-[#313170]">
-                                        <a href="https://hamk.dk/yding-rally-2024/" target='_blank'>
+                                        <a href="https://www.facebook.com/vejenmotorklub" target='_blank'>
                                             Læs mere
                                         </a>
                                     </button>
@@ -41,22 +41,6 @@ const rallies = () => {
                         </div>
                     </div>
                     <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
-                        <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
-                            <figure className=''>
-                                <img src="/assets/images/Rallyplade-Sønderjylland.png" alt="Rally Sønderjylland rallyplade" />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Rally Sønderjylland - DSR 2</h2>
-                                <p>25. Maj 2024</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn bg-[white] text-[black] hover:bg-[#F7941D] hover:text-[#313170]">
-                                        <a href="https://www.facebook.com/vejenmotorklub" target='_blank'>
-                                            Læs mere
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
                         <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
                             <figure className='p-4'>
                                 <img src="/assets/images/Logo-DSR-3.png" alt="DM-Ugen rallyplade" />
@@ -73,9 +57,6 @@ const rallies = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
                             <figure className='p-3 bg-black'>
                                 <img src="/assets/images/juelsminde-rallyplade.png" alt="Rally Juelsminde rallyplade" />
@@ -92,9 +73,13 @@ const rallies = () => {
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+
+                    <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
                             <figure className='p-3'>
-                                <img src="/assets/images/Logo.png" alt="Rally Vestjylland rallyplade"/>
+                                <img src="/assets/images/Logo.png" alt="Rally Vestjylland rallyplade" />
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title">Rally Vestjylland - DSR 5</h2>
@@ -108,8 +93,6 @@ const rallies = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className='flex justify-center'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
                             <figure className=''>
                                 <img src="/assets/images/stoholm-rallyplade.png" alt="Rally stoholm rallyplade" />
@@ -124,6 +107,19 @@ const rallies = () => {
                                         </a>
                                     </button>
                                 </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className='flex justify-center'>
+                        <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
+                            <figure className='p-3'>
+                                <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Rally Yding rallyplade" />
+                            </figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Yding Rally - DSR 1</h2>
+                                <p>20. April 2024</p>
+                                <p className='uppercase bg-secondary text-center p-4 text-black font-semibold w-full'>Afsluttet</p>
                             </div>
                         </div>
                     </div>
