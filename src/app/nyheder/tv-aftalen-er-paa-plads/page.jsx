@@ -10,7 +10,7 @@ const page = () => {
             <article className="max-w-2xl pb-24 pt-4 mx-auto space-y-12 dark:bg-gray-100 dark:text-gray-900 prose-base lg:prose-lg">
                 <div className="w-full mx-auto space-y-4 text-center">
                     <a href="/nyheder" className='btn btn-primary hover:btn-secondary flex w-fit ms-6'><IoArrowBackCircleOutline />Tilbage</a>
-                    <img src="/assets/images/galleri/dsc_9531.jpg" alt="Billede af servicepladsen" />
+                    <img src="/assets/images/galleri/DSC_9531.JPG" alt="Billede af servicepladsen" />
                     <p className="text-xs font-semibold tracking-wider uppercase px-6">#DSR</p>
                     <h1 className="text-4xl font-bold leading-tight md:text-5xl px-6">TV-aftalen er på plads til alle afdelinger af Dansk Super Rally i 2024</h1>
                     <p className="text-sm dark:text-gray-600 px-6">
