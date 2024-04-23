@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from './components/header/page';
 import Footer from './components/Footer';
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="da">
+      <Script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="da2a0979-d1bf-4dba-8d31-bfe50cc7e383" data-blockingmode="auto" type="text/javascript" />
       <body className={inter.className}>
         <Header />
         {children}
