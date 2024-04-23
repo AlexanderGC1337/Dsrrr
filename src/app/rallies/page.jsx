@@ -18,7 +18,7 @@ const rallies = () => {
             </a>
 
             <div className='mb-32 mt-10'>
-                <h2 className='text-center text-3xl font-semibold uppercase text-base-100 mb-10 flex gap-3 justify-center bg-primary py-4'>
+                <h2 className='text-center text-2xl 2xl:text-3xl font-semibold uppercase text-base-100 mb-10 flex gap-3 justify-center bg-primary py-4'>
                     Næste løb
                 </h2>
                 <div className='flex flex-col gap-4 text-[white] px-2'>

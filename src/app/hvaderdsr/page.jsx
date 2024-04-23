@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
+import Galleri from '../components/Galleri'
 
 const Hvaderdsr = () => {
   return (
@@ -110,10 +110,14 @@ const Hvaderdsr = () => {
       </div>
       <div className='container mx-auto mb-20'>
         <div className='grid gap-2 place-items-center'>
-          <img src="/assets/images/presse-dansk.jpg" alt=""/>
-          <img src="/assets/images/presse-engelsk.jpg" alt=""/>
+          <img src="/assets/images/presse-dansk.jpg" alt="" />
+          <img src="/assets/images/presse-engelsk.jpg" alt="" />
         </div>
       </div>
+      <h2 className='text-center text-2xl 2xl:text-3xl font-semibold uppercase text-base-100 mb-10 bg-primary py-4'>
+        Galleri
+      </h2>
+      <Galleri />
     </>
   )
 }

@@ -11,7 +11,10 @@ const page = () => {
                 <div className="w-full mx-auto space-y-4 text-center">
                     <a href="/nyheder" className='btn btn-primary hover:btn-secondary flex w-fit ms-6'><IoArrowBackCircleOutline />Tilbage</a>
                     <img src="/assets/images/nordic-rally.jpeg" alt="Billede fra nordic rally" className='object-cover w-full' />
-                    <p className="text-xs font-semibold tracking-wider uppercase px-6">#DSR</p>
+                    <div className="flex justify-center gap-2">
+                    <a className="text-xs font-semibold tracking-wider uppercase link link-primary" href="https://www.instagram.com/explore/tags/dansksuperrally/" target="_blank">#DSR</a>
+                    <a className="text-xs font-semibold tracking-wider uppercase link link-primary" href="https://www.instagram.com/explore/tags/nordicrally/" target="_blank">#NordicRally</a>
+                    </div>
                     <h1 className="text-4xl font-bold leading-tight md:text-5xl px-6">DSR støtter Nordic Rally Championship</h1>
                     <p className="text-sm dark:text-gray-600 px-6">
                         <time datetime="2024-01-02 15:34:18-0200">27. December, 2023</time>
