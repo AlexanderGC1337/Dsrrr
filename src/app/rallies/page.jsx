@@ -13,7 +13,7 @@ const rallies = () => {
                 </div>
             </div>
 
-            <a href='https://webapp.sportity.com/event/dasu/6876236b-b289-4b6b-82a2-6e4108fbe9dd' target='_blank' className='container mx-auto w-fit flex justify-center mt-10'>
+            <a href='https://webapp.sportity.com/event/dasu/88314d43-4128-460c-bb64-a89418076c63' target='_blank' className='container mx-auto w-fit flex justify-center mt-10'>
                 <img src="/assets/images/sportity.PNG" alt="" />
             </a>
 
