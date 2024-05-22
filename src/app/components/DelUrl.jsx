@@ -49,12 +49,13 @@ import {
 
 
 
-
-const lokation = window.location.href
-
+let lokation = ""
 
 const DelUrl = () => {
-
+    if (typeof window !== "undefined") {
+        lokation = window.location.href
+      }
+    
     const [linkTest, setlinkTest] = useState("Kopiér link")
     return (
         <div className='flex gap-2 justify-center items-center'>
