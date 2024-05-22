@@ -3,6 +3,7 @@
 import { IoArrowBackCircleOutline } from "react-icons/io5";
 import React from 'react'
 import { FaFacebook } from "react-icons/fa";
+import DelUrl from "@/app/components/DelUrl";
 
 const page = () => {
     return (
@@ -19,6 +20,7 @@ const page = () => {
                     <p className="text-sm dark:text-gray-600">
                         <time datetime="2024-01-02 15:34:18-0200">1. Februar, 2024</time>
                     </p>
+                    <DelUrl />
                 </div>
                 <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row justify-center">
                     <img src="/assets/images/Logo.jpg" alt="" className="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-300" />
