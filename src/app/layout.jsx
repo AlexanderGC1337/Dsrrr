@@ -16,6 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="da">
+      <Script src="https://player.vimeo.com/api/player.js"/>
       <Script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="da2a0979-d1bf-4dba-8d31-bfe50cc7e383" data-blockingmode="auto" type="text/javascript" />
       <body className={inter.className}>
         <Header />

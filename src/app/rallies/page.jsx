@@ -3,6 +3,22 @@ import React from 'react'
 const rallies = () => {
     return (
         <div>
+            <input type="checkbox" id="my_modal_7" className="modal-toggle" />
+            <div className="modal px-2" role="dialog">
+                <div className="modal-box h-96 w-full">
+                    <div className='h-full w-full text-center uppercase tracking-wide font-semibold flex flex-col'>
+                        <h4>Recap regionerne v1</h4>
+                        <iframe
+                            src="https://player.vimeo.com/video/949062202?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                            loading='lazy'
+                            allowFullScreen
+                            className='w-full h-full'
+                            title="RECAP_REGIONERNE_V1">
+                        </iframe>
+                    </div>
+                </div>
+                <label className="modal-backdrop" htmlFor="my_modal_7" />
+            </div>
             <div className="hero min-h-[600px] bg-cover" style={{ backgroundImage: 'url(/assets/images/galleri/DSC_9843.JPG)' }}>
 
                 <div className="hero-overlay bg-opacity-60"></div>
@@ -118,8 +134,10 @@ const rallies = () => {
                             </figure>
                             <div className="card-body">
                                 <h2 className="card-title">Yding Rally - DSR 1</h2>
-                                <p>20. April 2024</p>
-                                <p className='uppercase bg-secondary text-center p-4 text-black font-semibold w-full'>Afsluttet</p>
+                                <p className='uppercase'>Afsluttet</p>
+                                <div className="card-actions justify-end">
+                                    <label htmlFor="my_modal_7" className="btn text-[black] hover:bg-[#F7941D] hover:text-[#313170]">Se video</label>
+                                </div>
                             </div>
                         </div>
                     </div>
