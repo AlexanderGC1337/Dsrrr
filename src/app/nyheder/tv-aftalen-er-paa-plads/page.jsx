@@ -34,7 +34,6 @@ const page = () => {
                         Følgende motorsports klubber:
                     </p>
                     <p className='mt-5 font-medium'>
-                        Horsens Automobil- & Motor Klub <br />
                         Ikast og Omegns Motorklub <br />
                         Kjellerup og Omegns Motorklub <br />
                         Randers Auto Sport <br />

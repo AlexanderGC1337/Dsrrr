@@ -41,14 +41,14 @@ const rallies = () => {
                     <div className='flex justify-center text-[black]'>
                         <div className="card w-[600px] shadow-xl ">
                             <figure className='p-3'>
-                                <img src="/assets/images/Rallyplade-Sønderjylland.png" alt="Rally Sønderjylland rallyplade" />
+                                <img src="/assets/images/Logo-DSR-3.png" alt="DM-Ugen rallyplade" />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">Rally Sønderjylland - DSR 2</h2>
-                                <p>25. Maj 2024</p>
+                                <h2 className="card-title">DM-Ugen 2024 - DSR 3</h2>
+                                <p>22. Juni 2024</p>
                                 <div className="card-actions justify-end">
                                     <button className="btn bg-[black] text-[white] hover:bg-[#F7941D] hover:text-[#313170]">
-                                        <a href="https://www.facebook.com/vejenmotorklub" target='_blank'>
+                                        <a href="https://imk.dk/" target='_blank'>
                                             Læs mere
                                         </a>
                                     </button>
@@ -57,22 +57,7 @@ const rallies = () => {
                         </div>
                     </div>
                     <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
-                        <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
-                            <figure className='p-4'>
-                                <img src="/assets/images/Logo-DSR-3.png" alt="DM-Ugen rallyplade" />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">DM-Ugen 2024 - DSR 3</h2>
-                                <p>22. Juni 2024</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn bg-[white] text-[black] hover:bg-[#F7941D] hover:text-[#313170]">
-                                        <a href="https://imk.dk/" target='_blank'>
-                                            Læs mere
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
                             <figure className='p-3 bg-black'>
                                 <img src="/assets/images/juelsminde-rallyplade.png" alt="Rally Juelsminde rallyplade" />
@@ -89,10 +74,6 @@ const rallies = () => {
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-
-                    <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
                             <figure className='p-3'>
                                 <img src="/assets/images/Logo.png" alt="Rally Vestjylland rallyplade" />
@@ -109,6 +90,10 @@ const rallies = () => {
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+
+                    <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
                             <figure className=''>
                                 <img src="/assets/images/stoholm-rallyplade.png" alt="Rally stoholm rallyplade" />
@@ -125,9 +110,6 @@ const rallies = () => {
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div className='flex justify-center'>
                         <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
                             <figure className='p-3'>
                                 <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Rally Yding rallyplade" />
@@ -137,6 +119,25 @@ const rallies = () => {
                                 <p className='uppercase'>Afsluttet</p>
                                 <div className="card-actions justify-end">
                                     <label htmlFor="my_modal_7" className="btn text-[black] hover:bg-[#F7941D] hover:text-[#313170]">Se video</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className='flex justify-center'>
+                    <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
+                            <figure>
+                                <img src="/assets/images/Rallyplade-Sønderjylland.png" alt="Rally Sønderjylland rallyplade" className='w-fit h-auto'/>
+                            </figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Rally Sønderjylland - DSR 2</h2>
+                                <p className='uppercase'>Afsluttet</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn bg-[white] text-[black] hover:bg-[#F7941D] hover:text-[#313170]">
+                                        <a href="https://www.facebook.com/vejenmotorklub" target='_blank'>
+                                            Læs mere
+                                        </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
