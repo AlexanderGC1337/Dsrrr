@@ -20,7 +20,7 @@ const Nyheder = () => {
                                 <p>22. Maj, 2024</p>
                             </div>
                             <h3 className='text-sm pe-4 sm:pe-0 md:text-lg lg:text-sm font-medium'>
-                            FARTDUELLER I SØNDERJYLLAND
+                                FARTDUELLER I SØNDERJYLLAND
                             </h3>
                         </div>
                         <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
@@ -40,15 +40,15 @@ const Nyheder = () => {
                         <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
                     </a>
 
-                    <a href='/nyheder/nordicrally' className='relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
-                        <img src="/assets/images/galleri/DSC_9531.JPG" alt="Billede af servicepladsen" />
+                    <a href='/nyheder/forberedelserne-til-tv-daekningen' className='relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
+                        <img src="/assets/images/jp-racing.jpeg" alt='Rally bil bagfra' />
                         <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide w-full'>
                             <div className='flex items-center gap-2 mb-2'>
                                 <Image src={"/assets/images/calender2.svg"} width={20} height={20} className="filter invert" alt="Calendar icon" />
-                                <p>15/04/2024</p>
+                                <p>1/02/2024</p>
                             </div>
                             <h3 className='text-sm pe-4 sm:pe-0 md:text-lg lg:text-sm font-medium'>
-                                TV-aftalen er på plads til alle afdelinger af Dansk Super Rally i 2024
+                                Forberedelserne til tv-dækningen af Dansk Super Rally går ind i deres afsluttende fase
                             </h3>
                         </div>
                         <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
