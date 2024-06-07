@@ -18,7 +18,7 @@ const page = () => {
                         </div>
                     </a>
                     <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                        <a rel="noopener noreferrer" href="/nyheder/tv-aftalen-er-paa-plads" className="max-w-sm mx-auto rounded-lg group hover:no-underline focus:no-underline dark:bg-gray-50">
+                        <a rel="noopener noreferrer" href="/nyheder/rallyskole" className="max-w-sm mx-auto rounded-lg group hover:no-underline focus:no-underline dark:bg-gray-50">
                             <img role="presentation" className="object-cover w-full h-44 p-2 dark:bg-gray-500 rounded-t-lg" src="/assets/images/DASU-logo.png" alt="DASU logo" />
                             <div className="p-6 space-y-2">
                                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Er du Danmarks næste rallytalent?</h3>
