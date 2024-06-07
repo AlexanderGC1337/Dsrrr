@@ -16,6 +16,7 @@ const Footer = () => {
                     <h6 className="footer-title">Nyttige links</h6>
                     <a href='https://www.dasu.dk/' target='_blank' className="link link-hover">DASU</a>
                     <a href='https://www.fia.com/' target='_blank' className="link link-hover">FIA</a>
+                    <a href='https://motorsportdanmark.dk/' target='_blank' className="link link-hover">Motor Sport Danmark</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Følg os</h6>
