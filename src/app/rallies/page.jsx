@@ -29,7 +29,7 @@ const rallies = () => {
                 </div>
             </div>
 
-            <a href='https://webapp.sportity.com/event/dasu/1b63eaaa-e44c-4cea-b69f-7904af112393' target='_blank' className='container mx-auto w-fit flex justify-center mt-10'>
+            <a href='https://webapp.sportity.com/event/dasu/1b63eaaa-e44c-4cea-b69f-7904af112393' target='_blank' className='mx-5 w-fit flex justify-center mt-10 md:mx-auto'>
                 <img className='rounded-lg w-[600px] drop-shadow-lg hover:drop-shadow-xl' src="/assets/images/sportity.PNG" alt="" />
             </a>
 
@@ -38,9 +38,9 @@ const rallies = () => {
                     DSR Løb 2024
                 </h2>
 
-                <div className='flex flex-row items-center gap-2 px-52 my-28'>
-                    <p className='text-4xl select-none'>Aktiv</p>
-                     <hr className='w-full h-1 bg-black' />
+                <div className='container flex flex-row items-center gap-2 px-52 my-28 md:my-5 px-24 md:mx-auto md:my-10 justify-center'>
+                    <p className='text-4xl pl-4 text-center select-none md:pl-0 underline md:no-underline'>Aktiv</p>
+                     <hr className='w-0 h-1 bg-black md:w-full' />
                 </div>
                 <div className='flex flex-col gap-4 text-[white] px-2 '>
                     <div className='flex justify-center text-[black] '>
@@ -61,7 +61,7 @@ const rallies = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4 my-5'>
+                    <div className='flex flex-col items-center justify-center align-middle gap-14 my-5 lg:flex-row md:gap-10'>
 
                         <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
                             <figure className='p-3 bg-black'>
@@ -120,12 +120,12 @@ const rallies = () => {
 
 
                     </div>
-                    <div className='flex flex-row items-center gap-2 px-52 my-28'>
-                     <hr className='w-full h-1 bg-black' />
-                    <p className='text-4xl text-black select-none'>Afsluttet</p>
+                    <div className='container flex flex-row items-center gap-2 px-52 my-28 md:my-14 md:px-7 justify-center'>
+                     <hr className='w-0 h-1 bg-black md:w-full' />
+                    <p className='text-4xl pr-4 text-center select-none md:pl-0 text-black underline md:no-underline'>Afsluttet</p>
                 </div>
                 
-                    <div className='flex justify-center gap-4'>
+                    <div className='flex flex-col mx-auto justify-center gap-14 md:gap-4 md:flex-row'>
                     <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
                             <figure className='p-3'>
                                 <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Rally Yding rallyplade" />
