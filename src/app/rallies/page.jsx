@@ -12,12 +12,28 @@ const rallies = () => {
                             src="https://player.vimeo.com/video/949062202?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                             loading='lazy'
                             allowFullScreen
-                            className='w-full h-full'
+                            className='w-full h-full rounded'
                             title="RECAP_REGIONERNE_V1">
                         </iframe>
                     </div>
                 </div>
                 <label className="modal-backdrop" htmlFor="my_modal_7" />
+            </div>
+            <input type="checkbox" id="my_modal_8" className="modal-toggle" />
+            <div className="modal px-2" role="dialog">
+                <div className="modal-box h-96 w-full">
+                    <div className='h-full w-full text-center uppercase tracking-wide font-semibold flex flex-col'>
+                        <h4 className='select-none'>Rally Sønderjylland Recap</h4>
+                        <iframe
+                            src="https://player.vimeo.com/video/950872906?h=a36a1e4edf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                            loading='lazy'
+                            allowFullScreen
+                            className='w-full h-full rounded'
+                            title="Rally_Sønderjylland_Recap">
+                        </iframe>
+                    </div>
+                </div>
+                <label className="modal-backdrop" htmlFor="my_modal_8" />
             </div>
             <div className="hero min-h-[600px] bg-cover" style={{ backgroundImage: 'url(/assets/images/galleri/DSC_9843.JPG)' }}>
 
@@ -123,19 +139,19 @@ const rallies = () => {
                     <div className='flex flex-col justify-center gap-4 md:flex-row mx-auto'>
 
 
-                    <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96">
-                        <figure className='p-3'>
-                            <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Rally Yding rallyplade" />
-                        </figure>
-                        <div className="card-body">
-                            <h2 className="card-title select-none">Yding Rally - DSR 1</h2>
-                            <p className='uppercase select-none'>Afsluttet</p>
-                            <div className="card-actions justify-end">
-                                <label htmlFor="my_modal_7" className="btn text-[black] hover:bg-[#F7941D] hover:text-[#313170]">Se video</label>
+                        <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96">
+                            <figure className='p-3'>
+                                <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Rally Yding rallyplade" />
+                            </figure>
+                            <div className="card-body">
+                                <h2 className="card-title select-none">Yding Rally - DSR 1</h2>
+                                <p className='uppercase select-none'>Afsluttet</p>
+                                <div className="card-actions justify-end">
+                                    <label htmlFor="my_modal_7" className="btn text-[black] hover:bg-[#F7941D] hover:text-[#313170]">Se video</label>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                   
+
                         <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96">
                             <figure>
                                 <img src="/assets/images/Rallyplade-Sønderjylland.png" alt="Rally Sønderjylland rallyplade" className='w-fit h-auto' />
@@ -144,16 +160,12 @@ const rallies = () => {
                                 <h2 className="card-title select-none">Rally Sønderjylland - DSR 2</h2>
                                 <p className='uppercase select-none'>Afsluttet</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn bg-[white] text-[black] hover:bg-[#F7941D] hover:text-[#313170]">
-                                        <a href="https://www.facebook.com/vejenmotorklub" target='_blank'>
-                                            Læs mere
-                                        </a>
-                                    </button>
+                                    <label htmlFor="my_modal_8" className="btn text-[black] hover:bg-[#F7941D] hover:text-[#313170]">Se video</label>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
