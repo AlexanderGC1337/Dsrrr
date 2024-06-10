@@ -62,7 +62,7 @@ const rallies = () => {
                     </div>
                     <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
 
-                        <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
+                        <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96">
                             <figure className='p-3 bg-black'>
                                 <img src="/assets/images/juelsminde-rallyplade.png" alt="Rally Juelsminde rallyplade" />
                             </figure>
@@ -78,7 +78,7 @@ const rallies = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
+                        <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96">
                             <figure className='p-3'>
                                 <img src="/assets/images/Logo.png" alt="Rally Vestjylland rallyplade" />
                             </figure>
@@ -98,7 +98,7 @@ const rallies = () => {
                     </div>
 
                     <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
-                        <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
+                        <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96">
                             <figure className=''>
                                 <img src="/assets/images/stoholm-rallyplade.png" alt="Rally stoholm rallyplade" />
                             </figure>
@@ -123,7 +123,7 @@ const rallies = () => {
                     <div className='flex flex-col justify-center gap-4 md:flex-row mx-auto'>
 
 
-                    <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
+                    <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96">
                         <figure className='p-3'>
                             <img src="/assets/images/master_rallyplade_Udkast_RallyYding.svg" alt="Rally Yding rallyplade" />
                         </figure>
@@ -136,7 +136,7 @@ const rallies = () => {
                         </div>
                     </div>
                    
-                        <div className="card w-96 bg-base-100 shadow-xl image-full h-48">
+                        <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96">
                             <figure>
                                 <img src="/assets/images/Rallyplade-Sønderjylland.png" alt="Rally Sønderjylland rallyplade" className='w-fit h-auto' />
                             </figure>
