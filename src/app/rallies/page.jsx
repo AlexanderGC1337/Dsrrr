@@ -57,25 +57,28 @@ const rallies = () => {
                 <div className='mt-0 md:mt-20'>
                     <h3 className='text-center my-10 text-2xl select-none'>Aktive løb</h3>
                 </div>
+
+
+
+
                 <div className='flex flex-col gap-4 text-[white] px-2'>
-                    <div className='flex justify-center text-[black]'>
-                        <div className="card w-[600px] shadow-xl ">
-                            <figure className='p-3'>
-                                <img src="/assets/images/Logo-DSR-3.png" alt="DM-Ugen rallyplade" />
+
+                        <div className="card w-[auto] shadow-xl mx-auto md:w-[600px]">
+                        <figure className='p-3 bg-black'>
+                                <img src="/assets/images/juelsminde-rallyplade.png" alt="Rally Juelsminde rallyplade" />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title select-none">DM-Ugen 2024 - DSR 3</h2>
-                                <p className='select-none'>22. Juni 2024</p>
+                                <h2 className="card-title select-none text-black">Rally Juelsminde - DSR 4</h2>
+                                <p className='select-none text-black'>17. August 2024</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn bg-[black] text-[white] hover:bg-[#F7941D] hover:text-[#313170]">
-                                        <a href="https://imk.dk/" target='_blank' className='select-none'>
+                                    <button className="btn bg-[white] text-[black] hover:bg-[#F7941D] hover:text-[#313170]">
+                                        <a href="https://www.facebook.com/RallyJuelsminde" target='_blank'>
                                             Læs mere
                                         </a>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
 
                         <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96">
@@ -162,6 +165,22 @@ const rallies = () => {
                                 <div className="card-actions justify-end">
                                     <label htmlFor="my_modal_8" className="btn text-[black] hover:bg-[#F7941D] hover:text-[#313170]">Se video</label>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96 mx-auto py-4 md:py-0">
+                        <figure className='p-3'>
+                            <img src="/assets/images/Logo-DSR-3.png" alt="DM-Ugen rallyplade" />
+                        </figure>
+                        <div className="card-body">
+                            <h2 className="card-title select-none">DM-Ugen 2024 - DSR 3</h2>
+                            <p className='select-none'>AFSLUTTET</p>
+                            <div className="card-actions justify-end">
+                                {/* <button className="btn bg-[black] text-[white] hover:bg-[#F7941D] hover:text-[#313170]">
+                                        <a href="https://imk.dk/" target='_blank' className='select-none'>
+                                            Læs mere
+                                        </a>
+                                    </button> */}
                             </div>
                         </div>
                     </div>

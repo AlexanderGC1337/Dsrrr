@@ -5,7 +5,7 @@ import styles from "@/app/components/heroes/Homepage/page.module.scss"
 
 function Countdown() {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-06-22") - +new Date();
+    const difference = +new Date("2024-08-17") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -34,20 +34,20 @@ function Countdown() {
     <div>
       <div className='flex gap-4 font-semibold' id={styles.countDownContainer}>
         <div className='flex flex-col' id={styles.countContainer}>
-          <span>{timeLeft.days}</span>
-          <span id={styles.countDate}>Days</span>
+          <span className='select-none'>{timeLeft.days}</span>
+          <span id={styles.countDate} className='select-none'>Days</span>
         </div>
         <div className='flex flex-col' id={styles.countContainer}>
-          <span>{timeLeft.hours}</span>
-          <span id={styles.countDate}>Hours</span>
+          <span className='select-none'>{timeLeft.hours}</span>
+          <span id={styles.countDate} className='select-none'>Hours</span>
         </div>
         <div className='flex flex-col' id={styles.countContainer}>
-          <span>{timeLeft.minutes}</span>
-          <span id={styles.countDate}>Minutes</span>
+          <span className='select-none'>{timeLeft.minutes}</span>
+          <span id={styles.countDate} className='select-none'>Minutes</span>
         </div>
         <div className='flex flex-col' id={styles.countContainer}>
-          <span>{timeLeft.seconds}</span>
-          <span id={styles.countDate}>Seconds</span>
+          <span className='select-none'>{timeLeft.seconds}</span>
+          <span id={styles.countDate} className='select-none'>Seconds</span>
         </div>
       </div>
     </div>
