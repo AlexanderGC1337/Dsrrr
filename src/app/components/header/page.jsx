@@ -15,6 +15,7 @@ export default function Header() {
             </div>
             <ul tabIndex={0} className="menu menu-lg dropdown-content mt-5 z-[1] p-2 shadow bg-white rounded-box w-52">
               <li><a href="/nyheder">Nyheder</a></li>
+{/*               <li><a href="/stillinger">Stillinger</a></li> */}
               <li><a href="/rallies">Rallies</a></li>
               <li><a target="_blank" href="https://www.rally-results.dk/events">Resultater</a></li>
               <li><a href="/hvaderdsr">Hvad er DSR?</a></li>
@@ -27,6 +28,7 @@ export default function Header() {
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1 text-xl font-semibold">
             <li><a href="/nyheder">Nyheder</a></li>
+{/*             <li><a href="/stillinger">Stillinger</a></li> */}
             <li><a href="/rallies">Rallies</a></li>
             <li><a target="_blank" href="https://www.rally-results.dk/events">Resultater</a></li>
             <li><a href="/hvaderdsr">Hvad er DSR?</a></li>
