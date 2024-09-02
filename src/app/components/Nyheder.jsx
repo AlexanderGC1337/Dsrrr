@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Nyheder = () => {
     return (
         <>
-            <div className='container px-5 md:px-0 mx-auto my-20'>
+            <div className='container px-5 md:px-4 mx-auto my-20'>
                 <div className='flex items-center'>
                     <img src="/assets/images/Logo.jpg" alt="DSR logo" className='w-20 h-20' />
                     <h1 className='uppercase font-medium italic text-lg'>Nyheder</h1>
