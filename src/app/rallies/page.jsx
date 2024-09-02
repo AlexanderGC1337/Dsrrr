@@ -64,15 +64,15 @@ const rallies = () => {
                 <div className='flex flex-col gap-4 text-[white] px-2'>
 
                     <div className="card w-[auto] shadow-xl mx-auto md:w-[600px]">
-                        <figure className='p-3 bg-black'>
-                            <img src="/assets/images/juelsminde-rallyplade.png" alt="Rally Juelsminde rallyplade" />
+                        <figure className='p-3'>
+                            <img src="/assets/images/Logo.png" alt="Rally Vestjylland rallyplade" />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title select-none text-black">Rally Juelsminde - DSR 4</h2>
-                            <p className='select-none text-black'>17. August 2024</p>
+                            <h2 className="card-title select-none text-black">Rally Vestjylland - DSR 5</h2>
+                            <p className='select-none text-black'>7. September 2024</p>
                             <div className="card-actions justify-end">
                                 <button className="btn bg-[#333] text-[white] hover:bg-[#F7941D] hover:text-[#313170]">
-                                    <a href="https://www.facebook.com/RallyJuelsminde" target='_blank'>
+                                    <a href="https://www.facebook.com/ROMK045" target='_blank'>
                                         Læs mere
                                     </a>
                                 </button>
@@ -80,25 +80,6 @@ const rallies = () => {
                         </div>
                     </div>
                     <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
-
-
-                        <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96">
-                            <figure className='p-3'>
-                                <img src="/assets/images/Logo.png" alt="Rally Vestjylland rallyplade" />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title select-none">Rally Vestjylland - DSR 5</h2>
-                                <p className='select-none'>7. September 2024</p>
-                                <p>ㅤ</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn bg-[white] text-[black] hover:bg-[#F7941D] hover:text-[#313170]">
-                                        <a href="https://www.facebook.com/ROMK045" target='_blank'>
-                                            Læs mere
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
 
 
                         <div className='flex flex-col lg:flex-row items-center justify-center align-middle gap-4'>
@@ -109,7 +90,7 @@ const rallies = () => {
                                 <div className="card-body">
                                     <h2 className="card-title select-none">Rally Stoholm - DSR 6</h2>
                                     <p className='select-none'>27-28. September 2024</p>
-                                    <p className='uppercase'>Finale</p>
+                                    <p className='uppercase font-semibold tracking-wider'>Finale</p>
                                     <div className="card-actions justify-end">
                                         <button className="btn bg-[white] text-[black] hover:bg-[#F7941D] hover:text-[#313170]">
                                             <a href="https://rallystoholm.dk" target='_blank'>
@@ -154,19 +135,40 @@ const rallies = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96 mx-auto py-4 md:py-0">
-                        <figure className='p-3'>
-                            <img src="/assets/images/Logo-DSR-3.png" alt="DM-Ugen rallyplade" />
-                        </figure>
-                        <div className="card-body">
-                            <h2 className="card-title select-none">DM-Ugen 2024 - DSR 3</h2>
-                            <p className='select-none'>AFSLUTTET</p>
-                            <div className="card-actions justify-end">
-                                {/* <button className="btn bg-[black] text-[white] hover:bg-[#F7941D] hover:text-[#313170]">
+
+                    <div className='flex flex-col justify-center gap-4 md:flex-row mx-auto'>
+
+                        <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96 mx-auto py-4 md:py-0">
+                            <figure className='p-3'>
+                                <img src="/assets/images/Logo-DSR-3.png" alt="DM-Ugen rallyplade" />
+                            </figure>
+                            <div className="card-body">
+                                <h2 className="card-title select-none">DM-Ugen 2024 - DSR 3</h2>
+                                <p className='select-none'>AFSLUTTET</p>
+                                <div className="card-actions justify-end">
+                                    {/* <button className="btn bg-[black] text-[white] hover:bg-[#F7941D] hover:text-[#313170]">
                                         <a href="https://imk.dk/" target='_blank' className='select-none'>
                                             Læs mere
                                         </a>
                                     </button> */}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card w-80 bg-base-100 shadow-xl image-full h-48 md:w-96 mx-auto py-4 md:py-0">
+                            <figure className='p-3'>
+                                <img src="/assets/images/juelsminde-rallyplade.png" alt="Rally Juelsminde rallyplade" />
+                            </figure>
+                            <div className="card-body">
+                                <h2 className="card-title select-none">Rally Juelsminde - DSR 4</h2>
+                                <p className='select-none'>AFSLUTTET</p>
+                                <div className="card-actions justify-end">
+                                    {/* <button className="btn bg-[black] text-[white] hover:bg-[#F7941D] hover:text-[#313170]">
+                                        <a href="https://imk.dk/" target='_blank' className='select-none'>
+                                            Læs mere
+                                        </a>
+                                    </button> */}
+                                </div>
                             </div>
                         </div>
                     </div>
