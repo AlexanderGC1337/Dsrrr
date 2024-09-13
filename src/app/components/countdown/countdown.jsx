@@ -5,7 +5,7 @@ import styles from "@/app/components/heroes/Homepage/page.module.scss"
 
 function Countdown() {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-09-07") - +new Date();
+    const difference = +new Date("2024-09-27") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
