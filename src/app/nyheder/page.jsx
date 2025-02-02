@@ -1,89 +1,96 @@
-'use client'
+// app/news/page.jsx
+'use client';
 
-import React from 'react'
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import PocketBase from 'pocketbase';
 
-const page = () => {
-    return (
-        <>
-            <section className='min-h-screen bg-base-100'>
-                <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
-                    <a rel="noopener noreferrer" href="/nyheder/dsr-faar-flere-muskler" className="bg-white block max-w-sm gap-3 mx-auto sm:max-w-full group rounded-lg hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
-                        <img src="/assets/images/Logo.png" alt="DSR Logo" className="object-cover w-full rounded-t-lg lg:rounded-r-none lg:rounded-l-lg sm:h-96 lg:col-span-7" />
-                        <div className="p-6 space-y-2 lg:col-span-5">
-                            <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Dansk Super Rally får flere muskler</h3>
-                            <span className="text-xs dark:text-gray-600">5. September, 2024</span>
-                            <p>
-                                De kommende sæsoner skal kvaliteten af Dansk Super Rally løftes. DASUs bestyrelse har derfor udpeget en styregruppe på tre personer, der sammen med de afviklende klubber skal hæve niveauet for toppen af dansk rally.
-                            </p>
-                        </div>
-                    </a>
-                    <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+const pb = new PocketBase('https://dsrn.pockethost.io');
 
-                        <a rel="noopener noreferrer" href="/nyheder/fartdueller-i-soenderjylland" className="bg-white max-w-sm mx-auto rounded-lg group hover:no-underline focus:no-underline dark:bg-gray-50">
-                            <img role="presentation" className="object-cover w-full h-44 dark:bg-gray-500 rounded-t-lg" src="/assets/images/rally-soenderjylland/kenneth-bil.jpg" alt="Kenneth i Citröen C3" />
-                            <div className="p-6 space-y-2">
-                                <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">FARTDUELLER I SØNDERJYLLAND</h3>
-                                <span className="text-xs dark:text-gray-600">22. Maj, 2024</span>
-                                <p>Danmarks skrappeste rallykørere samles fredag og lørdag til Au2parts Rally Sønderjylland, som er anden runde i Dansk Super Rally og Dansk Super Rally Short 2024. Dermed får publikum  mulighed for at følge rallyeliten på nogle hurtige og meget udfordrende hastighedsprøver tæt på rallyets centrum hos EUC Syd i Aabenraa.</p>
-                            </div>
-                        </a>
-                        <a rel="noopener noreferrer" href="/nyheder/rallyskole" className="bg-white max-w-sm mx-auto rounded-lg group hover:no-underline focus:no-underline dark:bg-gray-50">
-                            <img role="presentation" className="object-cover w-full h-44 p-2 dark:bg-gray-500 rounded-t-lg" src="/assets/images/DASU-logo.png" alt="DASU logo" />
-                            <div className="p-6 space-y-2">
-                                <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Er du Danmarks næste rallytalent?</h3>
-                                <span className="text-xs dark:text-gray-600">7. Maj, 2024</span>
-                                <p>Så tag med, når DASU præsenterer sin nye rallyskole, der med praktik, teori og personlig support fra dygtige mentorer...</p>
-                            </div>
-                        </a>
-                        <a rel="noopener noreferrer" href="/nyheder/forberedelserne-til-tv-daekningen" className="bg-white max-w-sm mx-auto rounded-lg group hover:no-underline focus:no-underline dark:bg-gray-50">
-                            <img role="presentation" className="object-cover w-full h-44 dark:bg-gray-500 rounded-t-lg" src="/assets/images/jp-racing.jpeg" alt='Rally bil bagfra' />
-                            <div className="p-6 space-y-2">
-                                <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Forberedelserne til tv-dækningen af Dansk Super Rally går ind i deres afsluttende fase</h3>
-                                <span className="text-xs dark:text-gray-600">1. Februar, 2024</span>
-                                <p>Der er nu en måned til, at første afdeling af årets Dansk Super Rally afvikles. Forberedelserne omkring tv-dækningen af mesterskabets seks løb...</p>
-                            </div>
-                        </a>
-                        <a rel="noopener noreferrer" href="/nyheder/nordicrally" className="bg-white max-w-sm mx-auto rounded-lg group hover:no-underline focus:no-underline dark:bg-gray-50">
-                            <img role="presentation" className="object-cover w-full h-44 dark:bg-gray-500 rounded-t-lg" src="/assets/images/nordic-rally.jpeg" alt='Billede fra nordic rally' />
-                            <div className="p-6 space-y-2">
-                                <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">DSR støtter Nordic Rally Championship</h3>
-                                <span className="text-xs dark:text-gray-600">27. December, 2023</span>
-                                <p>Læs mere...</p>
-                            </div>
-                        </a>
-
-                        {/* <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
-                            <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?4" />
-                            <div className="p-6 space-y-2">
-                                <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-                                <span className="text-xs dark:text-gray-600">January 24, 2021</span>
-                                <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-                            </div>
-                        </a>
-                        <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
-                            <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?5" />
-                            <div className="p-6 space-y-2">
-                                <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-                                <span className="text-xs dark:text-gray-600">January 25, 2021</span>
-                                <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-                            </div>
-                        </a>
-                        <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
-                            <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?6" />
-                            <div className="p-6 space-y-2">
-                                <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-                                <span className="text-xs dark:text-gray-600">January 26, 2021</span>
-                                <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-                            </div>
-                        </a> */}
-                    </div>
-                    {/* <div className="flex justify-center">
-                        <button type="button" className="px-6 py-3 text-sm rounded-md hover:underline dark:bg-gray-50 dark:text-gray-600">Load more posts...</button>
-                    </div> */}
-                </div>
-            </section>
-        </>
-    )
+function NewsCardSkeleton() {
+  return (
+    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+      <div className="relative w-full h-48 bg-gray-200 animate-pulse" />
+      <div className="p-4">
+        <div className="h-6 w-24 bg-gray-200 rounded-full animate-pulse mb-2" />
+        <div className="h-6 bg-gray-200 rounded w-3/4 animate-pulse mb-2" />
+        <div className="h-4 w-32 bg-gray-200 rounded animate-pulse" />
+      </div>
+    </div>
+  );
 }
 
-export default page
+function NewsGridSkeleton() {
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <div className="h-10 w-48 bg-gray-200 rounded animate-pulse mb-8" />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {[...Array(6)].map((_, index) => (
+          <NewsCardSkeleton key={index} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default function NewsPage() {
+  const [news, setNews] = useState(null);
+
+  useEffect(() => {
+    async function fetchNews() {
+      try {
+        const records = await pb.collection('nyheder').getFullList({
+          sort: '-created',
+        });
+        setNews(records);
+      } catch (error) {
+        console.error('Error fetching news:', error);
+      }
+    }
+
+    fetchNews();
+  }, []);
+
+  if (!news) {
+    return <NewsGridSkeleton />;
+  }
+
+  return (
+    <div className="container mx-auto px-4 py-8">
+    <h1 className="text-4xl font-bold mb-8">Seneste nyheder</h1>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {news
+        .sort((a, b) => new Date(b.date) - new Date(a.date)) // Sort by date, newest first
+        .map((article) => {
+        const imageUrl = article.image ? `${pb.baseUrl}/api/files/${article.collectionId}/${article.id}/${article.image}` : '/placeholder.jpg';
+        
+        return (
+          <Link
+            key={article.id}
+            href={`/nyheder/${article.id}`}
+            className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+          >
+            <div className="relative w-full h-48">
+              <img
+                src={imageUrl}
+                alt={article.title}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="p-4">
+              <span className="inline-block px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm mb-2">
+                {article.hashtag}
+              </span>
+              <h2 className="text-xl font-semibold mb-2">{article.title}</h2>
+              <p className="text-gray-600">
+                {new Date(article.date).toLocaleDateString('da-DK')}
+              </p>
+            </div>
+          </Link>
+        );
+      })}
+    </div>
+  </div>
+  );
+}

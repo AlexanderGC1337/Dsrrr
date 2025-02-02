@@ -12,7 +12,7 @@ const Nyheder = () => {
                     <h1 className='uppercase font-medium italic text-lg'>Nyheder</h1>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-3 grid-rows-2 lg:grid-cols-6 md:grid-rows-4 gap-x-3 gap-y-2'>
-                    <a href='/nyheder/dsr-faar-flere-muskler' className='hover:shadow-2xl relative col-span-1 md:col-span-3 lg:col-span-4 md:row-span-4'>
+                    <a href='/nyheder/4jkz925x7rwz908' className='hover:shadow-2xl relative col-span-1 md:col-span-3 lg:col-span-4 md:row-span-4'>
                         <img src="/assets/images/Logo.png" alt="DSR Logo" className='w-fit h-auto object-cover mx-auto' />
                         <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide w-full'>
                             <div className='flex items-center gap-2 mb-2'>
@@ -26,7 +26,7 @@ const Nyheder = () => {
                         <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
                     </a>
 
-                    <a href='/nyheder/fartdueller-i-soenderjylland' className='hover:shadow-2xl relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
+                    <a href='/nyheder/2kqsj613v8dzx46' className='hover:shadow-2xl relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
                         <img src="/assets/images/rally-soenderjylland/kenneth-bil.jpg" alt="Kenneth i Citröen C3" />
                         <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide w-full'>
                             <div className='flex items-center gap-2 mb-2'>
@@ -40,7 +40,7 @@ const Nyheder = () => {
                         <p className='absolute top-4 text-sm bg-secondary rounded-e-full hover:bg-black hover:text-secondary font-semibold md:px-8 sm:py-3 sm:px-6 py-2 ps-2 pe-4 italic '>DSR</p>
                     </a>
 
-                    <a href='/nyheder/rallyskole' className='hover:shadow-2xl relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
+                    <a href='/nyheder/2kqsj613v8dzx46' className='hover:shadow-2xl relative col-span-1 md:col-span-3 lg:col-span-2 md:row-span-2'>
                         <img src="/assets/images/DASU-logo.png" alt="DASU logo" className='p-10'/>
                         <div className='absolute bottom-0 ps-3 uppercase text-base-100 bg-black bg-opacity-40 py-3 tracking-wide w-full'>
                             <div className='flex items-center gap-2 mb-2'>
